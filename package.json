@@ -1,0 +1,22 @@
+{
+  "name": "disenio_adaptativo_meli3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomasgongora/Dis_Adaptativo_MercadoLiebre3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomasgongora/Dis_Adaptativo_MercadoLiebre3/issues"
+  },
+  "homepage": "https://github.com/Tomasgongora/Dis_Adaptativo_MercadoLiebre3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

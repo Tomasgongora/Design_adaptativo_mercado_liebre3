@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    /* VARIABLES DE COLORES */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a; 
+    /*Fuentes*/
+    --fuente: 'Roboto', sans-serif;
+    /*TAMAÑOS TIPOGRAFICOS*/
+    --parrafos: 12px;
+    --titulos: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+    
+}
+
+/*GENERALES*/
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: var(--gris-claro);
+    font-family: var(--fuente);
+   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+li {
+    list-style: none;
+}
+
+div p .compras {
+    font-size: var(--parrafos);
+}
+/*HEADER*/
+
+header {
+    background-color: var(--amarillo);
+    padding: 25px 0;
+    
+}   
+    
+img.logo {
+    width: 200px;
+    margin-left: 25px;
+}
+
+header div.busqueda{
+    margin-left: 15px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+header nav {
+    display: none;
+}
+
+header nav ul li a {
+    font-size: var(--parrafos);
+}
+ 
+header div.burger-menu {
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: white;
+    width: 30px;
+    padding: 7px;
+    margin: 25px auto 0;
+}
+
+/*MAIN*/
+
+main {
+    width: 90%;
+    margin: auto;
+}    
+    
+img.banner {
+    
+    margin-bottom: 2.5rem;
+}
+
+main section h4 {
+    font-size: var(--titulos);
+    color: var(--gris-oscuro);
+    margin-bottom: 20px;
+}
+
+main section article {
+    background-color: white;
+    margin-bottom: 10px;
+}
+main section article div {
+    border-top: 1px solid var(--gris-claro);
+    padding: 15px;
+}
+
+/*SECCIONES*/
+
+/*PRODUCTOS*/
+
+section article p.precio {
+font-size: var(--precio);
+}
+
+section article p.descuento {
+    font-size: var(--descuento);
+    color: var(--verde);
+    padding-bottom: 15px;
+}
+
+main section article div div.envio {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+main section article h5 {
+    display: none;
+}
+
+section article h5 .descripcion {
+    font-size: var(--descripcion);
+}
+
+/*FOOTER*/
+
+footer{
+    padding: 50px 10px 10px;
+    background-color: white;
+}
+
+footer article {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer article i {
+    font-size: 2em;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+
+footer article h4 {
+    font-size: var(--titulos);
+}
+
+footer article p {
+    font-size: var(--parrafos);
+}
+
+footer p.copy {
+    text-align: center;
+}
+
+@media (min-width: 370px) {
+    header div.burger-menu {
+          display: none;
+    }
+    header nav {
+          display: block;
+    }
+    main section article h5 {
+          display: inline;
+          font-size: var(--descripcion);
+          color: var(--gris-oscuro);
+    }
+    main section article {
+          box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+ 
